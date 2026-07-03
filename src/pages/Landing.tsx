@@ -148,7 +148,7 @@ export default function Landing() {
       <nav className="lexaro-nav" style={{ position: 'sticky', top: 0, zIndex: 100, background: 'rgba(255, 255, 255, 0.85)', backdropFilter: 'blur(12px)' }}>
         <div className="lexaro-container" style={{ display: 'flex', justifyContent: 'center' }}>
           <div className="lexaro-logo">
-            <img src="/logo.png" alt="LinksMeet" style={{ width: '26px', height: '26px', objectFit: 'contain', borderRadius: '5px', marginRight: '6px' }} />
+            <img src="/logo.png" alt="" style={{ width: '26px', height: '26px', objectFit: 'contain', borderRadius: '5px', marginRight: '6px' }} />
             LinksMeet
           </div>
         </div>
@@ -840,7 +840,7 @@ export default function Landing() {
             <div className="lexaro-orbit-wrapper">
               {/* Central Logo */}
               <div className="lexaro-orbit-center">
-                <img src="/logo.png" alt="LinksMeet" style={{ width: '56px', height: '56px', objectFit: 'contain' }} />
+                <img src="/logo.png" alt="" style={{ width: '56px', height: '56px', objectFit: 'contain' }} />
               </div>
 
               {/* Ring 1 (Inner): CRM + sending domains */}
@@ -929,7 +929,7 @@ export default function Landing() {
           <div className="lexaro-footer-grid">
             <div className="lexaro-footer-col">
               <div className="lexaro-footer-logo">
-                <img src="/logo.png" alt="LinksMeet" style={{ width: '26px', height: '26px', objectFit: 'contain', borderRadius: '5px', marginRight: '6px' }} />
+                <img src="/logo.png" alt="" style={{ width: '26px', height: '26px', objectFit: 'contain', borderRadius: '5px', marginRight: '6px' }} />
                 LinksMeet
               </div>
               <p style={{ color: '#888', fontSize: '0.95rem', lineHeight: 1.6, maxWidth: '240px' }}>
@@ -939,27 +939,27 @@ export default function Landing() {
             <div className="lexaro-footer-col">
               <h4>Platform</h4>
               <div className="lexaro-footer-links">
-                <a href="#">Prospecting</a>
-                <a href="#">Outreach</a>
-                <a href="#">Deliverability</a>
-                <a href="#">Integrations</a>
+                <a>Prospecting</a>
+                <a>Outreach</a>
+                <a>Deliverability</a>
+                <a>Integrations</a>
               </div>
             </div>
             <div className="lexaro-footer-col">
               <h4>Company</h4>
               <div className="lexaro-footer-links">
-                <a href="#">About us</a>
-                <a href="#">Careers</a>
-                <a href="#">Blog</a>
-                <a href="#">Contact</a>
+                <a>About us</a>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>Contact</a>
               </div>
             </div>
             <div className="lexaro-footer-col">
               <h4>Resources</h4>
               <div className="lexaro-footer-links">
-                <a href="#">Help Center</a>
-                <a href="#">Community</a>
-                <a href="#">Outbound Playbooks</a>
+                <a>Help Center</a>
+                <a>Community</a>
+                <a>Outbound Playbooks</a>
               </div>
             </div>
           </div>
