@@ -131,10 +131,6 @@ const FaqAccordion = () => {
 };
 
 export default function Landing() {
-  const goSignup = () => {
-    alert("Waitlist coming soon! Please check back later.");
-  };
-
   return (
     <div className="lexaro-landing" style={{ minHeight: '100vh', position: 'relative' }}>
 
@@ -146,19 +142,10 @@ export default function Landing() {
 
       {/* ============ NAVBAR ============ */}
       <nav className="lexaro-nav" style={{ position: 'sticky', top: 0, zIndex: 100, background: 'rgba(255, 255, 255, 0.85)', backdropFilter: 'blur(12px)' }}>
-        <div className="lexaro-container">
+        <div className="lexaro-container" style={{ display: 'flex', justifyContent: 'center' }}>
           <div className="lexaro-logo">
             <img src="/logo.png" alt="LinksMeet" style={{ width: '26px', height: '26px', objectFit: 'contain', borderRadius: '5px', marginRight: '6px' }} />
             LinksMeet
-          </div>
-          <div className="lexaro-nav-links">
-            <a href="#about">About</a>
-            <a href="#features">Features</a>
-            <a href="#blog">Blog</a>
-            <a href="#contact">Contact</a>
-          </div>
-          <div className="lexaro-nav-actions">
-            <button className="lexaro-btn lexaro-btn-dark" onClick={goSignup}>Get Started</button>
           </div>
         </div>
         
