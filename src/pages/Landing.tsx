@@ -131,6 +131,10 @@ const FaqAccordion = () => {
 };
 
 export default function Landing() {
+  const goSignup = () => {
+    alert("Waitlist coming soon! Please check back later.");
+  };
+
   return (
     <div className="lexaro-landing" style={{ minHeight: '100vh', position: 'relative' }}>
 
